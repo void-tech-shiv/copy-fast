@@ -1,0 +1,6 @@
+copyfast
+*.o
+*.copyfast.resume
+*.copyfast.resume.tmp
+*.bin
+.DS_Store
