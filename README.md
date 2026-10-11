@@ -135,7 +135,7 @@ Tests cover:
 ## Benchmark
 
 ```bash
-./benchmark/benchmark.sh 512
+bash benchmark/benchmark.sh 512
 ```
 
 The argument is the test size in MiB. The script compares sequential `read`/`write`, threaded overlap, and `io_uring` when available. Verification is disabled during the benchmark so the measurement focuses on transfer throughput.
